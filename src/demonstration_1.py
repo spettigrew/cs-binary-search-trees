@@ -8,7 +8,7 @@ node that has no children.
 
 Example:
 
-Given the binary tree [5,12,32,None,None,8,4],
+Given the following binary tree
 
     5
    / \

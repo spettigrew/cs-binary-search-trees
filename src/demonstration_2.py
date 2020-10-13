@@ -11,15 +11,16 @@ node's value.
 - Both the left and right subtrees must also be valid binary search trees.
 
 Example 1:
+Input:
 
     5
    / \
   3   7
 
-Input: [5,3,7]
 Output: True
 
 Example 2:
+Input:
 
     10
    / \
@@ -27,7 +28,6 @@ Example 2:
      / \
     6  12
 
-Input: [10,2,8,None,None,6,12]
 Output: False
 Explanation: The root node's value is 10 but its right child's value is 8.
 """
