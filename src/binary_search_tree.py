@@ -173,3 +173,10 @@ deleted = bst.delete(15)
 print(deleted.value)
 
 print(bst.root.value, bst.root.left.value, bst.root.right.value)
+
+
+# At each node, get left and right subtree's height.
+# Drill down recursion:
+    # As we come up, we about 2 things
+    # 1. A node's height in the tree and
+    # 2. If a node's left and right subtrees are balanced.
